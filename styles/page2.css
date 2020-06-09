@@ -1,0 +1,136 @@
+body{
+    background-color: #e6e6e6;
+}
+
+.page-home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    width: 125px;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+
+.divPage2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 5px;
+    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 75px;
+}
+
+img{
+    width: 125px;
+    border-radius: 4px 0px 0px 4px;
+    float: left;
+    margin-right: 10px;
+}
+
+.topPage2{
+    text-align: left;
+    align-items: center;
+}
+
+.topPage2 h1{
+    color: #404040;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topPage2 p{
+    color: #404040;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 550px;
+    height: 40px;
+    box-shadow: 0px 2px 4px #00000029;
+    background-color: rgb(248, 246, 246);
+    opacity: 1;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 35px;
+    color: #404040;
+    outline: 0;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: -25px;
+}
+span { 
+    font-size: 20px;
+    background-color: rgb(248, 246, 246);   
+    padding: 5px;
+    position: absolute;
+    left: 83%;
+    top: 25%;
+}
+
+h3{
+    text-align: left;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #404040;
+}
+hr{
+    width: 570px;
+    margin: 10px;
+}
+
+.foods{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.foods #img1,#img2,#img3,#img4 img{
+    width: 80px;
+    border-radius: 4px 0px 0px 4px;
+    float: left;
+    margin-right: 10px;
+}
+
+.foods li{
+    text-align: left;
+    list-style: none;
+    margin: 10px;
+    box-shadow: 0px 4px 8px #00000029;
+}
+
+.foods li h2{
+    font-size: 16px;
+    color: #404040;
+}
+
+.foods li p {
+    color: #404040;
+    font-size: 12px;
+}
+
+.foods li .value{
+    font-size: 16px;
+    color: #009ca3;
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.foods li:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px grey;
+}
