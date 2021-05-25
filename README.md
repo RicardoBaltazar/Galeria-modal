@@ -1,7 +1,7 @@
 #### Front end  
   
-Nome | Descrição 
-:--------- | :------: 
-Valor | Valor 
+Nome | Descrição | Tecnologias
+:--------- | :------: | :------:
+Valor | Valor | Valor
   
 
